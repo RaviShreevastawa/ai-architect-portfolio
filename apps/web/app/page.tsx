@@ -9,10 +9,23 @@ export default function Home() {
     <>
       <Navbar />
       <main className="pt-20">
-        <Hero />
-        <Architecture />
-        <Projects />
-        <AIPlayground/>
+        <section id="home" className="scroll-mt-24">
+          <Hero />
+        </section>
+        <section id="architecture" className="scroll-mt-24">
+          <Architecture />
+        </section>
+        <section id="projects" className="scroll-mt-24">
+          <Projects />
+        </section>
+        <section id="ai" className="scroll-mt-24">
+          <AIPlayground />
+        </section>
+
+        {/* Contact (optional later) */}
+        {/* <section id="contact" className="scroll-mt-24">
+          <Contact />
+        </section> */}
       </main>
     </>
   );

@@ -1,0 +1,12 @@
+Ravi is an AI Architect and Full Stack Developer.
+
+He has built:
+- AI Architect Portfolio with RAG
+- WhatsApp-like MERN chat app
+- Redux-based e-commerce app
+
+Skills:
+- React, Next.js, Tailwind
+- Node.js, Express, MongoDB
+- FastAPI, LangChain, LLMs
+- Vector Databases, RAG systems

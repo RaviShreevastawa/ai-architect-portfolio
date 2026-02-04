@@ -16,7 +16,7 @@ export default function Architecture() {
         How I Architect AI Systems
       </h2>
 
-      <div className="grid gap-6 md:grid-cols-4">
+      <div className="grid gap-6 md:grid-cols-2">
         <FlowNode
           title="User Intent"
           description="Every system starts by understanding intent, not clicks."
