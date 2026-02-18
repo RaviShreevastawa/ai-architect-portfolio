@@ -34,6 +34,9 @@ export default function AIPlayground() {
   const askAI = async () => {
     if (!input.trim() || loading) return;
 
+    // ✅ ADD THIS LINE
+  (window as any).socket?.emit("ai_query");
+
     const userMessage: ChatMessage = {
       role: "user",
       content: input,

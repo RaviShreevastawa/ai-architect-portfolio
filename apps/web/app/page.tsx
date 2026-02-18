@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import Architecture from "@/components/sections/Architecture";
 import Projects from "@/components/sections/Projects";
 import AIPlayground from "@/components/ai/AIPlayground";
+import SkillDashboard from "@/components/sections/Skill_Dashboard";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
         </section>
         <section id="projects" className="scroll-mt-24">
           <Projects />
+        </section>
+        <section id="skills" className="scroll-mt-24">
+          <SkillDashboard />
         </section>
         <section id="ai" className="scroll-mt-24">
           <AIPlayground />
